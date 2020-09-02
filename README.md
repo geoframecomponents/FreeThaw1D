@@ -13,6 +13,16 @@ At present, a common problem of physical-based frozen soil model concerns the tr
 
 ![Alt text](docs/frozensoil.jpg?raw=true "Title")
 
-#Acknowledgements
+# Website
+- [GEOframe](http://geoframe.blogspot.com/)
+- [NSERC PermafrostNet](https://www.permafrostnet.ca/)
 
-This work has been partially supported by a Ph.D. grant by the Department of Civil, Environmental and Mechanics Engineering at the University of Trento and by the NSERC PermafrostNet project. 
+# Acknowledgements
+
+-  Niccolò Tubini, Stephan Gruber, Riccardo Rigon developed the theoretical aspects of the model (Authors). 
+-  Niccolò Tubini, Riccardo Rigon designed the first version of the code (Authors)
+-  Niccolò Tubini implemented and deployed it (Authors)
+-  Riccardo Rigon and Stephan Gruber provided financial support
+-  Niccolò Tubini and Riccardo Rigon wrote the documentation in the Notebooks
+-  Niccolò Tubini was partially supported by a Ph.D. grant by [DICAM-UniTrento](https://www.unitn.it/dricam/) and by the  [NSERC PermafrostNet Project](https://www.permafrostnet.ca/).
+-  We thank Professor Vincenzo Casulli and Professor Michael Dumbser for their fruitful discussions on the numerical aspects of the work. 
