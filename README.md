@@ -17,6 +17,10 @@ At present, a common problem of physical-based frozen soil model concerns the tr
 - [GEOframe](http://geoframe.blogspot.com/)
 - [NSERC PermafrostNet](https://www.permafrostnet.ca/)
 
+# OMS
+`FreThaw1D` is written in Java,  works under the [`OMS3`](https://abouthydrology.blogspot.com/2017/08/oms-3-essentials.html)(David et al., 2013) framework and is part of the `GEOframe` system ([Formetta et al., 2014](https://doi.org/10.1016/j.envsoft.2014.01.019), [Bancheri, 2017](http://eprints-phd.biblio.unitn.it/2679/)). It was produced as part of the Ph.D. work by Niccolò Tubini.
+Here you can find the [OMS project](https://github.com/GEOframeOMSProjects/OMS_FreThaw1D)
+
 # Acknowledgements
 
 -  Niccolò Tubini, Stephan Gruber, Riccardo Rigon developed the theoretical aspects of the model (Authors). 
@@ -24,5 +28,5 @@ At present, a common problem of physical-based frozen soil model concerns the tr
 -  Niccolò Tubini implemented and deployed it (Authors)
 -  Riccardo Rigon and Stephan Gruber provided financial support
 -  Niccolò Tubini and Riccardo Rigon wrote the documentation in the Notebooks
--  Niccolò Tubini was partially supported by a Ph.D. grant by [DICAM-UniTrento](https://www.unitn.it/dricam/) and by the  [NSERC PermafrostNet Project](https://www.permafrostnet.ca/).
+-  Niccolò Tubini was partially supported by a Ph.D. grant by [DICAM-UniTrento](https://www.unitn.it/dricam/) and by the  [NSERC PermafrostNet](https://www.permafrostnet.ca/)  project.
 -  We thank Professor Vincenzo Casulli and Professor Michael Dumbser for their fruitful discussions on the numerical aspects of the work. 
