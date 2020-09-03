@@ -1,0 +1,26 @@
+language: java
+jdk:
+    - oraclejdk8
+dist: trusty
+before_cache:
+    - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+    - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+      - "$HOME/.gradle/caches/"
+      - "$HOME/.gradle/wrapper/"
+before_deploy:
+    - export GRADLE_BUILD_DIR="build/libs"
+    - export TAG=$(git describe --abbrev=0 --tags)
+    - export MOD_TAG=${TAG#"v"}
+    - export RELEASE_PKG_FILE="${GRADLE_BUILD_DIR}/TravisLesson-${MOD_TAG}.jar"
+    - echo "deploying $RELEASE_PKG_FILE to GitHub releases"
+    - gradle -PprojVersion=$MOD_TAG build
+deploy:
+  provider: releases
+  file: "${RELEASE_PKG_FILE}"
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
+    repo: geoframecomponents/FreThaw1D
