@@ -40,9 +40,6 @@ public class SimpleBoundaryConditionFactory {
 		else if(type.equalsIgnoreCase("Top Neumann") || type.equalsIgnoreCase("TopNeumann")){
 			boundaryCondition = new TopBoundaryConditionNeumann();
 		}
-		else if(type.equalsIgnoreCase("Top Newton") || type.equalsIgnoreCase("TopNewton")){
-			boundaryCondition = new TopBoundaryConditionNewton();
-		}
 		else if(type.equalsIgnoreCase("Bottom Dirichlet") || type.equalsIgnoreCase("BottomDirichlet")){
 			boundaryCondition = new BottomBoundaryConditionDirichlet();
 		}
