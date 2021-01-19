@@ -398,15 +398,9 @@ public class CallFreezingThawingSolver {
 		 */
 		topBC = 0.0;
 		topBC = (inTopBC.get(0)[0]);
-		if(topBCType.equalsIgnoreCase("Top Neumann") || topBCType.equalsIgnoreCase("TopNeumann")) {
-			topBC = topBC/tTimestep;
-		}
 
 		bottomBC = 0.0;
 		bottomBC = inBottomBC.get(0)[0];
-		if(bottomBCType.equalsIgnoreCase("Bottom Neumann") || bottomBCType.equalsIgnoreCase("BottomNeumann")) {
-			bottomBC = bottomBC/tTimestep;
-		}
 		
 		saveDate = -1.0;
 		saveDate = inSaveDate.get(0)[0];
