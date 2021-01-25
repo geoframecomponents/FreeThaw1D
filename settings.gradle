@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = '1DFrozenSoil'
+rootProject.name = 'FreeThaw1D'
